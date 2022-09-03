@@ -1,267 +1,531 @@
 id: I336B7478
+legacy_id: P000620
+ocr_import_info:
+  bdrc_scan_id: W2PD19769
+  source: bdrc
+  ocr_info:
+    timestamp: '2020-03-28T08:56:56'
+    imagesfolder: images
+  batch_id: batch001
+  software_id: vision
+  expected_default_language: bo
+  op_import_options: {}
+  op_import_version: 1.0.0
+default_language: bo
 source: https://library.bdrc.io
 source_file: null
 initial_creation_type: ocr
-imported: '2020-03-28T09:07:16+00:00'
-last_modified: '2022-06-07T12:28:27.884204+00:00'
-parser: https://github.com/OpenPecha-dev/openpecha-toolkit/blob/231bba39dd1ba393320de82d4d08a604aabe80fc/openpecha/formatters/google_orc.py
+imported: '2022-09-03T10:49:20.253607+00:00'
+last_modified: 2022-09-03 19:02:19.097310
+parser: https://github.com/OpenPecha/Toolkit/blob/7f57883d84bc10351527a49ee6ce970ace404e50/openpecha/formatters/google_ocr.py
 source_metadata:
-  id: bdr:W2PD19769
-  title: ས་སྐྱའི་ལམ་འབྲས།
-  author: ''
+  id: http://purl.bdrc.io/resource/W2PD19769
+  status: http://purl.bdrc.io/admindata/StatusReleased
   access: http://purl.bdrc.io/admindata/AccessOpen
-  restrictedInChina: true
-  base:
-    DEB3:
-      image_group_id: I2PD19932
-      title: ''
-      total_pages: 688
-      order: 1
-      base_file: DEB3.txt
-    CD85:
-      image_group_id: I2PD19933
-      title: ''
-      total_pages: 472
-      order: 2
-      base_file: CD85.txt
-    20B7:
-      image_group_id: I2PD19934
-      title: ''
-      total_pages: 474
-      order: 3
-      base_file: 20B7.txt
-    A1F4:
-      image_group_id: I2PD19935
-      title: ''
-      total_pages: 516
-      order: 4
-      base_file: A1F4.txt
-    98B5:
-      image_group_id: I2PD19936
-      title: ''
-      total_pages: 450
-      order: 5
-      base_file: 98B5.txt
-    155C:
-      image_group_id: I2PD19937
-      title: ''
+  geo_restriction:
+  - CN
+  reproduction_of: http://purl.bdrc.io/resource/MW2PD19769
+  copyright_status: http://purl.bdrc.io/resource/CopyrightPublicDomain
+  title: ས་སྐྱའི་ལམ་འབྲས།
+statistics:
+  ocr_word_mean_confidence_index: 0.9526180398197965
+  ocr_word_median_confidence_index: 0.9800000190734863
+quality: null
+bases:
+  I2PD19937:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I2PD19937
       total_pages: 572
-      order: 6
-      base_file: 155C.txt
-    '9887':
-      image_group_id: I2PD19938
-      title: ''
-      total_pages: 542
-      order: 7
-      base_file: 9887.txt
-    9AA5:
-      image_group_id: I2PD19939
-      title: ''
-      total_pages: 518
-      order: 8
-      base_file: 9AA5.txt
-    '6845':
-      image_group_id: I2PD19940
-      title: ''
-      total_pages: 458
-      order: 9
-      base_file: 6845.txt
-    FDCC:
-      image_group_id: I2PD19941
-      title: ''
-      total_pages: 220
-      order: 10
-      base_file: FDCC.txt
-    '0504':
-      image_group_id: I2PD19942
-      title: ''
-      total_pages: 542
-      order: 11
-      base_file: 0504.txt
-    B1C1:
-      image_group_id: I2PD19943
-      title: ''
-      total_pages: 536
-      order: 12
-      base_file: B1C1.txt
-    9E96:
-      image_group_id: I2PD19944
-      title: ''
-      total_pages: 486
-      order: 13
-      base_file: 9E96.txt
-    '2491':
-      image_group_id: I2PD19945
-      title: ''
-      total_pages: 578
-      order: 14
-      base_file: 2491.txt
-    E17E:
-      image_group_id: I2PD19946
-      title: ''
-      total_pages: 536
-      order: 15
-      base_file: E17E.txt
-    86C8:
-      image_group_id: I2PD19947
-      title: ''
-      total_pages: 470
-      order: 16
-      base_file: 86C8.txt
-    E02E:
-      image_group_id: I2PD19948
-      title: ''
-      total_pages: 498
-      order: 17
-      base_file: E02E.txt
-    E8DB:
-      image_group_id: I2PD19949
-      title: ''
-      total_pages: 368
-      order: 18
-      base_file: E8DB.txt
-    '8786':
-      image_group_id: I2PD19950
-      title: ''
-      total_pages: 542
-      order: 19
-      base_file: 8786.txt
-    BF80:
-      image_group_id: I2PD19951
-      title: ''
-      total_pages: 420
-      order: 20
-      base_file: BF80.txt
-    91F6:
-      image_group_id: I2PD19952
-      title: ''
-      total_pages: 484
-      order: 21
-      base_file: 91F6.txt
-    50D8:
-      image_group_id: I2PD19953
-      title: ''
-      total_pages: 454
-      order: 22
-      base_file: 50D8.txt
-    48EB:
-      image_group_id: I2PD19954
-      title: ''
-      total_pages: 494
-      order: 23
-      base_file: 48EB.txt
-    2D9E:
-      image_group_id: I2PD19955
-      title: ''
-      total_pages: 504
-      order: 24
-      base_file: 2D9E.txt
-    1CFB:
-      image_group_id: I2PD19956
-      title: ''
-      total_pages: 474
-      order: 25
-      base_file: 1CFB.txt
-    1B3B:
-      image_group_id: I2PD19957
-      title: ''
-      total_pages: 510
-      order: 26
-      base_file: 1B3B.txt
-    '4484':
-      image_group_id: I2PD19958
-      title: ''
-      total_pages: 548
-      order: 27
-      base_file: 4484.txt
-    93E4:
-      image_group_id: I2PD19959
-      title: ''
-      total_pages: 480
-      order: 28
-      base_file: 93E4.txt
-    '5251':
-      image_group_id: I2PD19960
-      title: ''
-      total_pages: 538
-      order: 29
-      base_file: 5251.txt
-    67C9:
-      image_group_id: I2PD19961
-      title: ''
-      total_pages: 624
-      order: 30
-      base_file: 67C9.txt
-    DDEF:
-      image_group_id: I2PD19962
-      title: ''
-      total_pages: 450
-      order: 31
-      base_file: DDEF.txt
-    1D4D:
-      image_group_id: I2PD19963
-      title: ''
-      total_pages: 520
-      order: 32
-      base_file: 1D4D.txt
-    '4678':
-      image_group_id: I2PD19964
-      title: ''
+      volume_number: 6
+      volume_pages_bdrc_intro: 2
+    order: 6
+    base_file: I2PD19937.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.9800000190734863
+      ocr_word_mean_confidence_index: 0.9561699365031909
+    legacy_id: v006
+  I2PD19964:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I2PD19964
       total_pages: 496
-      order: 33
-      base_file: 4678.txt
-    936E:
-      image_group_id: I2PD19965
-      title: ''
-      total_pages: 402
-      order: 34
-      base_file: 936E.txt
-    2AB8:
-      image_group_id: I2PD19966
-      title: ''
-      total_pages: 538
-      order: 35
-      base_file: 2AB8.txt
-    A4A6:
-      image_group_id: I2PD19967
-      title: ''
-      total_pages: 486
-      order: 36
-      base_file: A4A6.txt
-    DF7C:
-      image_group_id: I2PD19968
-      title: ''
-      total_pages: 498
-      order: 37
-      base_file: DF7C.txt
-    6C14:
-      image_group_id: I2PD19969
-      title: ''
+      volume_number: 33
+      volume_pages_bdrc_intro: 2
+    order: 33
+    base_file: I2PD19964.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.9800000190734863
+      ocr_word_mean_confidence_index: 0.9488605741894668
+    legacy_id: v033
+  I2PD19963:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I2PD19963
+      total_pages: 520
+      volume_number: 32
+      volume_pages_bdrc_intro: 2
+    order: 32
+    base_file: I2PD19963.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.9800000190734863
+      ocr_word_mean_confidence_index: 0.946597330290461
+    legacy_id: v032
+  I2PD19969:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I2PD19969
       total_pages: 466
-      order: 38
-      base_file: 6C14.txt
-    88AF:
-      image_group_id: I2PD19970
-      title: ''
-      total_pages: 518
-      order: 39
-      base_file: 88AF.txt
-    C022:
-      image_group_id: I2PD19971
-      title: ''
+      volume_number: 38
+      volume_pages_bdrc_intro: 2
+    order: 38
+    base_file: I2PD19969.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.9800000190734863
+      ocr_word_mean_confidence_index: 0.9541749046200828
+    legacy_id: v038
+  I2PD19965:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I2PD19965
+      total_pages: 402
+      volume_number: 34
+      volume_pages_bdrc_intro: 2
+    order: 34
+    base_file: I2PD19965.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.9800000190734863
+      ocr_word_mean_confidence_index: 0.9503208477258437
+    legacy_id: v034
+  I2PD19961:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I2PD19961
+      total_pages: 624
+      volume_number: 30
+      volume_pages_bdrc_intro: 2
+    order: 30
+    base_file: I2PD19961.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.9800000190734863
+      ocr_word_mean_confidence_index: 0.9524595746701973
+    legacy_id: v030
+  I2PD19953:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I2PD19953
+      total_pages: 454
+      volume_number: 22
+      volume_pages_bdrc_intro: 2
+    order: 22
+    base_file: I2PD19953.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.9800000190734863
+      ocr_word_mean_confidence_index: 0.9500391884506054
+    legacy_id: v022
+  I2PD19968:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I2PD19968
+      total_pages: 498
+      volume_number: 37
+      volume_pages_bdrc_intro: 2
+    order: 37
+    base_file: I2PD19968.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.9800000190734863
+      ocr_word_mean_confidence_index: 0.9563719666744845
+    legacy_id: v037
+  I2PD19971:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I2PD19971
       total_pages: 424
-      order: 40
-      base_file: C022.txt
-    A444:
-      image_group_id: I2PD19972
-      title: ''
+      volume_number: 40
+      volume_pages_bdrc_intro: 2
+    order: 40
+    base_file: I2PD19971.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.9800000190734863
+      ocr_word_mean_confidence_index: 0.9513535583477416
+    legacy_id: v040
+  I2PD19945:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I2PD19945
+      total_pages: 578
+      volume_number: 14
+      volume_pages_bdrc_intro: 2
+    order: 14
+    base_file: I2PD19945.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.9800000190734863
+      ocr_word_mean_confidence_index: 0.9567826262650632
+    legacy_id: v014
+  I2PD19934:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I2PD19934
+      total_pages: 474
+      volume_number: 3
+      volume_pages_bdrc_intro: 2
+    order: 3
+    base_file: I2PD19934.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.9800000190734863
+      ocr_word_mean_confidence_index: 0.9572151645675077
+    legacy_id: v003
+  I2PD19942:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I2PD19942
+      total_pages: 542
+      volume_number: 11
+      volume_pages_bdrc_intro: 2
+    order: 11
+    base_file: I2PD19942.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.9800000190734863
+      ocr_word_mean_confidence_index: 0.9506659623522894
+    legacy_id: v011
+  I2PD19946:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I2PD19946
+      total_pages: 536
+      volume_number: 15
+      volume_pages_bdrc_intro: 2
+    order: 15
+    base_file: I2PD19946.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.9800000190734863
+      ocr_word_mean_confidence_index: 0.9511048769016212
+    legacy_id: v015
+  I2PD19949:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I2PD19949
+      total_pages: 368
+      volume_number: 18
+      volume_pages_bdrc_intro: 2
+    order: 18
+    base_file: I2PD19949.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.9800000190734863
+      ocr_word_mean_confidence_index: 0.9529347582608857
+    legacy_id: v018
+  I2PD19950:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I2PD19950
+      total_pages: 542
+      volume_number: 19
+      volume_pages_bdrc_intro: 2
+    order: 19
+    base_file: I2PD19950.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.9800000190734863
+      ocr_word_mean_confidence_index: 0.9559039492508624
+    legacy_id: v019
+  I2PD19960:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I2PD19960
+      total_pages: 538
+      volume_number: 29
+      volume_pages_bdrc_intro: 2
+    order: 29
+    base_file: I2PD19960.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.9800000190734863
+      ocr_word_mean_confidence_index: 0.9526478352278277
+    legacy_id: v029
+  I2PD19967:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I2PD19967
+      total_pages: 486
+      volume_number: 36
+      volume_pages_bdrc_intro: 2
+    order: 36
+    base_file: I2PD19967.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.9800000190734863
+      ocr_word_mean_confidence_index: 0.9534933066794945
+    legacy_id: v036
+  I2PD19948:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I2PD19948
+      total_pages: 498
+      volume_number: 17
+      volume_pages_bdrc_intro: 2
+    order: 17
+    base_file: I2PD19948.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.9800000190734863
+      ocr_word_mean_confidence_index: 0.9507068337727744
+    legacy_id: v017
+  I2PD19951:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I2PD19951
+      total_pages: 420
+      volume_number: 20
+      volume_pages_bdrc_intro: 2
+    order: 20
+    base_file: I2PD19951.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.9800000190734863
+      ocr_word_mean_confidence_index: 0.9478109328606485
+    legacy_id: v020
+  I2PD19940:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I2PD19940
+      total_pages: 458
+      volume_number: 9
+      volume_pages_bdrc_intro: 2
+    order: 9
+    base_file: I2PD19940.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.9800000190734863
+      ocr_word_mean_confidence_index: 0.9600957964303176
+    legacy_id: v009
+  I2PD19972:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I2PD19972
       total_pages: 372
-      order: 41
-      base_file: A444.txt
-statistics: {}
-quality: {}
+      volume_number: 41
+      volume_pages_bdrc_intro: 2
+    order: 41
+    base_file: I2PD19972.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.9800000190734863
+      ocr_word_mean_confidence_index: 0.9548343074598289
+    legacy_id: v041
+  I2PD19970:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I2PD19970
+      total_pages: 518
+      volume_number: 39
+      volume_pages_bdrc_intro: 2
+    order: 39
+    base_file: I2PD19970.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.9800000190734863
+      ocr_word_mean_confidence_index: 0.9462106551509395
+    legacy_id: v039
+  I2PD19944:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I2PD19944
+      total_pages: 486
+      volume_number: 13
+      volume_pages_bdrc_intro: 2
+    order: 13
+    base_file: I2PD19944.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.9800000190734863
+      ocr_word_mean_confidence_index: 0.9460109899289224
+    legacy_id: v013
+  I2PD19943:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I2PD19943
+      total_pages: 536
+      volume_number: 12
+      volume_pages_bdrc_intro: 2
+    order: 12
+    base_file: I2PD19943.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.9800000190734863
+      ocr_word_mean_confidence_index: 0.9510443334023946
+    legacy_id: v012
+  I2PD19958:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I2PD19958
+      total_pages: 548
+      volume_number: 27
+      volume_pages_bdrc_intro: 2
+    order: 27
+    base_file: I2PD19958.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.9800000190734863
+      ocr_word_mean_confidence_index: 0.9544948096037961
+    legacy_id: v027
+  I2PD19962:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I2PD19962
+      total_pages: 450
+      volume_number: 31
+      volume_pages_bdrc_intro: 2
+    order: 31
+    base_file: I2PD19962.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.9800000190734863
+      ocr_word_mean_confidence_index: 0.9587204269358277
+    legacy_id: v031
+  I2PD19966:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I2PD19966
+      total_pages: 538
+      volume_number: 35
+      volume_pages_bdrc_intro: 2
+    order: 35
+    base_file: I2PD19966.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.9800000190734863
+      ocr_word_mean_confidence_index: 0.9538745298450153
+    legacy_id: v035
+  I2PD19952:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I2PD19952
+      total_pages: 484
+      volume_number: 21
+      volume_pages_bdrc_intro: 2
+    order: 21
+    base_file: I2PD19952.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.9800000190734863
+      ocr_word_mean_confidence_index: 0.9525040643116519
+    legacy_id: v021
+  I2PD19939:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I2PD19939
+      total_pages: 518
+      volume_number: 8
+      volume_pages_bdrc_intro: 2
+    order: 8
+    base_file: I2PD19939.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.9800000190734863
+      ocr_word_mean_confidence_index: 0.9568665907670102
+    legacy_id: v008
+  I2PD19935:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I2PD19935
+      total_pages: 516
+      volume_number: 4
+      volume_pages_bdrc_intro: 2
+    order: 4
+    base_file: I2PD19935.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.9800000190734863
+      ocr_word_mean_confidence_index: 0.9585410992765977
+    legacy_id: v004
+  I2PD19936:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I2PD19936
+      total_pages: 450
+      volume_number: 5
+      volume_pages_bdrc_intro: 2
+    order: 5
+    base_file: I2PD19936.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.9800000190734863
+      ocr_word_mean_confidence_index: 0.9553075177926792
+    legacy_id: v005
+  I2PD19941:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I2PD19941
+      total_pages: 220
+      volume_number: 10
+      volume_pages_bdrc_intro: 2
+    order: 10
+    base_file: I2PD19941.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.9800000190734863
+      ocr_word_mean_confidence_index: 0.9516653210609973
+    legacy_id: v010
+  I2PD19932:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I2PD19932
+      total_pages: 688
+      volume_number: 1
+      volume_pages_bdrc_intro: 2
+    order: 1
+    base_file: I2PD19932.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.9800000190734863
+      ocr_word_mean_confidence_index: 0.9505743423115885
+    legacy_id: v001
+  I2PD19933:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I2PD19933
+      total_pages: 472
+      volume_number: 2
+      volume_pages_bdrc_intro: 2
+    order: 2
+    base_file: I2PD19933.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.9800000190734863
+      ocr_word_mean_confidence_index: 0.9516809210480881
+    legacy_id: v002
+  I2PD19947:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I2PD19947
+      total_pages: 470
+      volume_number: 16
+      volume_pages_bdrc_intro: 2
+    order: 16
+    base_file: I2PD19947.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.9800000190734863
+      ocr_word_mean_confidence_index: 0.9475733876036375
+    legacy_id: v016
+  I2PD19955:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I2PD19955
+      total_pages: 504
+      volume_number: 24
+      volume_pages_bdrc_intro: 2
+    order: 24
+    base_file: I2PD19955.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.9800000190734863
+      ocr_word_mean_confidence_index: 0.95854654466686
+    legacy_id: v024
+  I2PD19954:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I2PD19954
+      total_pages: 494
+      volume_number: 23
+      volume_pages_bdrc_intro: 2
+    order: 23
+    base_file: I2PD19954.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.9800000190734863
+      ocr_word_mean_confidence_index: 0.9469816971597256
+    legacy_id: v023
+  I2PD19938:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I2PD19938
+      total_pages: 542
+      volume_number: 7
+      volume_pages_bdrc_intro: 2
+    order: 7
+    base_file: I2PD19938.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.9800000190734863
+      ocr_word_mean_confidence_index: 0.9491800383489595
+    legacy_id: v007
+  I2PD19956:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I2PD19956
+      total_pages: 474
+      volume_number: 25
+      volume_pages_bdrc_intro: 2
+    order: 25
+    base_file: I2PD19956.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.9800000190734863
+      ocr_word_mean_confidence_index: 0.9565823676482023
+    legacy_id: v025
+  I2PD19957:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I2PD19957
+      total_pages: 510
+      volume_number: 26
+      volume_pages_bdrc_intro: 2
+    order: 26
+    base_file: I2PD19957.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.9800000190734863
+      ocr_word_mean_confidence_index: 0.9534358111706366
+    legacy_id: v026
+  I2PD19959:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I2PD19959
+      total_pages: 480
+      volume_number: 28
+      volume_pages_bdrc_intro: 2
+    order: 28
+    base_file: I2PD19959.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.9800000190734863
+      ocr_word_mean_confidence_index: 0.9535996075824648
+    legacy_id: v028
 copyright:
-  status: Unknown
-  notice: ''
-  info_url: null
-license: null
+  status: Public domain
+  notice: Public domain
+  info_url: https://creativecommons.org/publicdomain/mark/1.0/
+license: CC0
